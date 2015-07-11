@@ -1,0 +1,30 @@
+﻿@media screen and (max-width: 650px)
+{
+  .dc-content {
+    
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1120px)
+{
+  .dc-content {
+    margin-left: 180px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1121px)
+{
+  .dc-content {
+    width: 800px;
+    margin: 0px auto;
+  }
+}
+
+.dc-page-head {
+  height: 80px;
+}
+
+.dc-content {
+  position: relative;
+}

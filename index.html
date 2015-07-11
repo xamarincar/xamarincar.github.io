@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="DcApp" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="Css/bootstrap.min.css" rel="stylesheet">
+  <link href="Css/Menu.css" rel="stylesheet">
+  <link href="Css/Content.css" rel="stylesheet">
+
+  <script src="Scripts/angular.js"></script>
+  <script src="Scripts/angular-ui-router.js"></script>
+  <script src="Scripts/app.js"></script>
+  
+  <script src="States/Main/MainState.js"></script>
+</head>
+<body>
+
+  <div class="dc-main-menu dc-main-menu__phone">
+    Main Menu
+  </div>
+
+  <div class="dc-main-menu dc-main-menu__tablet">
+    Main Menu
+  </div>
+
+  <div class="dc-content">
+    <div class="dc-main-menu dc-main-menu__desktop">
+      Main Menu
+    </div>
+    <div class="dc-page-head">
+      <div ui-view="header"></div>
+    </div>
+
+    <br />
+    <a href="/#/add/">Add</a>
+
+    <div style="height: 1500px; border: 10px solid red;">
+      <div ui-view="content"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div ui-view="footer"></div>
+    </div>
+  </footer>
+  
+  
+  <script src="Scripts/jquery.min.js"></script>
+  <script src="scripts/plupload/plupload.full.min.js"></script>
+  <script src="scripts/plupload/ru.js"></script>
+  <script src="scripts/plupload/jquery.plupload.queue/jquery.plupload.queue.js"></script>
+  <link type="text/css" rel="stylesheet" href="scripts/plupload/jquery.plupload.queue/css/jquery.plupload.queue.css" media="screen" />
+
+
+  <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
